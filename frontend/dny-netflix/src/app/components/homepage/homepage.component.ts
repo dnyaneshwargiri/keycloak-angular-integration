@@ -45,7 +45,6 @@ export class HomepageComponent implements OnInit {
     );
   }
 
-  // Unused Method
   onMovieIdChange(event: any) {
     this.getMovieById(event.value);
   }

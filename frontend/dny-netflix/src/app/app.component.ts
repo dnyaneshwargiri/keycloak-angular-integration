@@ -1,7 +1,6 @@
-import { APP_INITIALIZER, Component } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { KeycloakAngularModule, KeycloakService } from 'keycloak-angular';
-import { initializeKeycloak } from './init/keycloak-init.factory';
+import { KeycloakAngularModule } from 'keycloak-angular';
 import { HttpClientModule } from '@angular/common/http';
 
 @Component({
